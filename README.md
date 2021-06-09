@@ -6,7 +6,7 @@ klay-did = `did:kt: + klay-spceific-idstring `
 
 klay-specific-idstring = 40*40HEXDIG
  
- 
+<br>
 ## CRUD Operation
  
 클레이튼 DID들은 클레이튼 블록체인에서 저장되며, DID management smart contract인 'DidLedger'에서 관리된다.
@@ -40,7 +40,7 @@ DID 문서의 항목을 삭제(비활성화)하기 위하여,아래 타입의 �
 
 **DID document의 삭제는 해당 id를 다시 등록하거나 다시 활성화할 수 없음을 의미한다.**
 
-
+<br>
 ## 보안 및 개인 정보 고려 사항
 
 위와 같은 스펙을 구현할 때 고려해야할 보안 및 개인 정보 보호 고려 사항이 몇 가지 있다.
@@ -49,7 +49,7 @@ DID 문서의 항목을 삭제(비활성화)하기 위하여,아래 타입의 �
 2. `controller` 속성에 지정된 대리자는 `public key` 값을 변경할 수 있으므로 DID 주체와 동일한 권한을 가집니다.
 3. DID 문서에는 개인 정보를 저장해서는 안되며, 인증 방법 및 서비스 엔드포인트로 제한되어야한다.
 
-
+<br>
 ## Implementation
 
 ### Bobbab testnet
